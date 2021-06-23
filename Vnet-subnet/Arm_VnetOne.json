@@ -77,7 +77,7 @@
               "[parameters('vnetName')]"
               ],
               "properties": {
-                "addressPrefixes": "[parameters('subnet1Prefix')]"
+                "addressPrefix": "[parameters('subnet1Prefix')]"
               }
           },
           {
